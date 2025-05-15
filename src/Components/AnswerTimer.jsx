@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import "./styles/AnswerTimer.scss";
 
 function AnswerTimer({ duration, onTimeUp }) {
   const [counter, setCounter] = useState(0);
